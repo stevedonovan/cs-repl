@@ -1,0 +1,10 @@
+default {
+  clr.program{'csr',src='csr prepro interpreter'},
+  clr.program{
+    'csrgui',
+    src='csrgui console prepro interpreter',
+    subsystem='winexe',
+    needs = 'winforms',
+  }
+}
+
